@@ -1,0 +1,75 @@
+/***********************************/
+/*   Foglio di stile per l'Admin   */
+/***********************************/
+
+/* Bookpicker */
+#my-picker {
+	box-shadow: 0px 0px 35px #000;
+	-webkit-box-shadow: 0px 0px 35px #000;
+	-moz-box-shadow: 0px 0px 35px #000;
+}
+#my-picker-head {
+	background-color: #005999;
+}
+#my-picker-title {
+	color: #fff;
+	font-size: 16px;
+}
+#my-picker-body {
+	overflow-y: scroll;
+}
+
+#my-picker-body img {
+	width: 32px;
+	height: 32px;
+	border: 2px solid #fff;
+}
+
+#my-picker-body .bookpicker-item {
+	padding: 5px 10px;
+	display: inline;
+}
+#my-picker-body .add-new-slider {
+	margin: 10px 10px;
+	text-align: right;
+}
+#my-picker-body .add-new-slider a span {
+	font-size: 12px;
+	font-weight: bold;
+}
+div#testimonials {
+	cursor: pointer;
+	margin: -1px 10px;
+	border: 1px solid #ddd;
+}
+div#testimonials:hover {
+    background-color: #E5F3FF;
+}
+
+/* Dashicons */
+.dashicons-format-gallery:before {
+	color: #bbaa1f !important;
+}
+.dashicons-cart:before {
+	color: #d4631d !important;
+}
+.dashicons-book:before {
+	color: #50dc1a !important;
+}
+
+
+/* Gallery custom fields */
+.field-isbn input[type="text"] {
+    width: 200px !important;
+}
+.field-store_cartaceo input[type="text"], .field-store_ebook input[type="text"] {
+    width: 400px !important;
+}
+.mce-window-head .mce-close .mce-i-remove:before {
+	color: #fff !important;
+}
+div#testimonials span.slider-date {
+	float: right;
+	margin-right: 10px;
+	font-size: 12px;
+}
